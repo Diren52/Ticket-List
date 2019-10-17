@@ -1,0 +1,194 @@
+*
+	font-family: arial
+.container
+	margin-top: 20px
+	margin-bottom: 20px
+a
+	text-decoration: none
+	&:hover, &:active, &:visited, &:focus
+		text-decoration: none !important
+.subject_panel
+	list-style-type: none
+	border-radius: 10px
+	border: 2px dotted #E5E5E5
+	padding: 15px
+	margin-bottom: 12px
+	transition: all 0.3s ease
+	&:hover
+		border: 2px solid #d9d9d9
+th, td
+	border-bottom: 2px solid #E5E5E5
+	padding: 10px
+	font-size: 14px
+.full-width
+	background: #E5E5E5
+	padding-top: 0px
+	padding-bottom: 50px 
+
+.page-btn
+	padding: 12px 18px !important
+	color: #737373 !important
+	font-weight: bold !important
+
+.links
+	color: #737373
+	font-size: 18px
+	transition: all 0.3s ease-in-out
+	-webkit-transition: all 0.3s ease-in-out
+	i
+		font-style: normal
+		margin-right: 12px
+		&:after
+			display: inline-block
+			content: "\f054"
+			font-family: fontawesome
+			font-size: 18px
+			position: relative
+			-ms-transform: rotate(0deg)
+			-webkit-transform: rotate(0deg)
+			transform: rotate(0deg)
+			transition: all 0.3s ease-in-out
+.info-canvas[aria-expanded="true"]	
+	transition: all 0.5s ease-in-out
+	display: flex
+	flex-direction: row
+	@media screen and (max-width: 500px)
+		flex-direction: column
+.info-canvas
+	transition: all 0.5s ease-in-out
+	padding: 20px 40px
+	display: none
+	@media screen and (max-width: 500px)
+		padding: 0
+	h4
+		font-weight: bold
+	.info-header-p
+		color: grey
+	.info-content-p
+		padding: 20px
+		background-color: #f2f2f2
+		border-radius: 10px
+		line-height: 1.5
+		margin-bottom: 20px
+a[aria-expanded="true"]
+	i
+		font-style: normal
+		margin-right: 12px
+		&:after
+			display: inline-block
+			content: "\f054"
+			font-family: fontawesome
+			font-size: 20px
+			color: #737373
+			position: relative
+			-ms-transform: rotate(90deg)
+			-webkit-transform: rotate(90deg)
+			transform: rotate(90deg)
+.error-msg
+	background-color: #FFE6E6
+	color: darkgoldenrod
+	border-radius: 10px
+	padding: 15px
+.panel-table
+	th
+		border: none
+.subject-style-header
+	width: 34%
+	@media screen and (max-width: 1025px)
+		width: 32%
+	@media screen and (max-width: 769px)
+		width: 33%	
+	@media screen and (max-width: 500px)
+		width: 12%	
+.subject-style
+	width: 35%
+.id-style
+	width: 5%
+.time-style
+	width: 7%
+.assign-style
+	width: 10%
+.status-th
+	width: 7.5%
+.status-style
+	width: 60px
+	text-align: center
+	padding: 5px
+	border-radius: 10px
+	color: white
+	font-size: 12px	
+.priority-style
+	width: 7%
+	@media screen and (max-width: 769px)
+		width: 9%
+.priority-flag
+	&:after
+		display: inline-block
+		content: "\f024"
+		font-family: fontawesome
+		font-size: 14px
+		position: relative
+.priority-status
+	display: inline
+.priority-low
+	color: lightgrey
+.priority-normal
+	color: #bfff80
+.priority-high
+	color: #ffc266
+.priority-urgent
+	color: #ff6666
+.status-open
+	background-color: #ff6666
+.status-pending
+	background-color: lightblue
+.status-solved
+	background-color: grey
+.header-th 
+	th
+		text-align: center
+		color: #737373
+		font-size: 12px
+.ticket-tag
+	background-color: #d9d9d9
+	border-radius: 10px
+	color: grey
+	font-weight: bold
+	font-size: 12px
+	padding: 6px
+	width: auto
+	margin-right: 5px
+	margin-bottom: 8px
+	cursor: pointer
+	display: inline-block
+.inline-block
+	display: inline-block
+.prev-btn
+	&:after
+		display: inline-block
+		content: "\f104"
+		font-family: fontawesome
+		font-size: 14px
+		color: #737373
+		position: relative
+.next-btn
+	&:after
+		display: inline-block
+		content: "\f105"
+		font-family: fontawesome
+		font-size: 14px
+		color: #737373
+		position: relative
+.btn-active
+	background-color: #E5E5E5 !important
+.span6
+	width: 50%
+	@media screen and (max-width: 500px)
+		width: 100%
+.mobile-show
+	display: none
+	@media screen and (max-width: 500px)
+		display: block 
+.mobile-hide
+	@media screen and (max-width: 500px)
+		display: none
